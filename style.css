@@ -1,0 +1,68 @@
+/* Menerapkan gaya umum ke seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Menerapkan gaya pada navbar */
+.navbar {
+    background-color: #3498db;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Menerapkan gaya pada judul */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Menerapkan gaya pada tombol */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #2076c4;
+}
+
+/* Menerapkan gaya pada kartu produk */
+.card {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Menerapkan gaya pada footer */
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
