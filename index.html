@@ -5,29 +5,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heart Box    </title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <style>
+        /* Menerapkan gaya umum ke seluruh halaman */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+/* Menerapkan gaya pada navbar */
+.navbar {
+    background-color: #3498db;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-size: 24px;
+}
+
+.navbar-nav .nav-link {
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Menerapkan gaya pada judul */
+h1 {
+    font-size: 36px;
+    color: #333;
+}
+
+/* Menerapkan gaya pada tombol */
+.btn {
+    background-color: #3498db;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: #2076c4;
+}
+
+/* Menerapkan gaya pada kartu produk */
+.card {
+    border: 1px solid #e1e1e1;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 14px;
+}
+
+/* Menerapkan gaya pada bagian tentang kami */
+#about {
+    margin-top: 40px;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+/* Menerapkan gaya pada footer */
+.footer {
+    background-color: #3498db;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+    </style>
 </head>
 <body>
 <!-- nav Bar -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container">
-        <a class="navbar-brand" href="#">Heart Box</a>
+        <a class="navbar-brand" href="#beranda" style="color: #333;">Heart Box</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Beranda</a>
+                    <a class="nav-link" href="#beranda" style="color: #333;">Beranda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#produk">Produk</a>
+                    <a class="nav-link" href="#produk" style="color: #333;" >Produk</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#about">Tentang Kami</a>
+                    <a class="nav-link" href="#about" style="color: #333;">Tentang Kami</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Kontak</a>
+                    <a class="nav-link" href="#" style="color: #333;">Kontak</a>
                 </li>
             </ul>
         </div>
@@ -35,7 +113,7 @@
 </nav>
 <!-- end navbar -->
     
-<div class="container mt-5">
+<div class="container mt-5" id="beranda">
     <div class="row">
         <div class="col-md-6">
             <h1>Selamat Datang di Heart Box</h1>
@@ -53,61 +131,73 @@
     <div class="row">
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
         <div class="col-md-4">
             <div class="card">
-                <img src="gambar_produk1.jpg" class="card-img-top" alt="Produk 1">
+                <img src="images/Produk1.jpg" class="card-img-top" alt="Produk 1">
                 <div class="card-body">
-                    <h5 class="card-title">Nama Produk 1</h5>
-                    <p class="card-text">Deskripsi produk 1.</p>
-                    <a href="#" class="btn btn-primary">Beli</a>
+                    <h5 class="card-title">Bracket Box Motor Nmax New 2020 Full Aluminium | Braket Almu Nmax Baru</h5>
+                    <p class="card-text">BRACKET ALUMINIUM NMAX NEW 2020</p>
+                    <br>
+                      <p>Bahan : Full Aluminium</p>
+                    <a href="https://www.tokopedia.com/hartbox/bracket-box-motor-nmax-new-2020-full-aluminium-braket-almu-nmax-baru?extParam=src%3Dshop%26whid%3D267404" class="btn btn-primary">Beli</a>
                 </div>
             </div>
         </div>
@@ -117,7 +207,7 @@
 
 <div class="container mt-5" id="about">
     <h2>Tentang Kami</h2>
-    <p>Kami adalah perusahaan yang berkomitmen untuk memberikan solusi aksesoris box motor terbaik kepada pelanggan kami. Dengan pengalaman bertahun-tahun, kami telah melayani ribuan pelanggan dengan produk berkualitas tinggi.</p>
+    <p>Hartbox Motor Bogor sudah memulai bisnisnya pada pertengahan tahun 2014. Mulai didirikan secara resmi awal januari 2015 oleh Hilman Jihadi. Berawal dari sulitnya mencari Box Motor (Motor Cases) di kota Bogor terutama secara online membuat orang yang ingin membeli box motor bingung kemana harus mencari karena tidak setiap toko aksesoris motor memiliki box motor, apalagi yang lengkap dengan banyak pilihan. Dengan bermodalkan kenalan seorang pemilik toko motor yang menjual box motor, Pemilik Hartbox menjalin kerja sama untuk memasarkan dan mengiklankan secara online produk box motor tersebut melalui sosial media dan berbagai website jual beli. Setelah posting dan mengiklankan dengan gencar, pemilik Hartbox mendapat respon yang baik dan tawaran untuk melakukan transaksi melalui COD (Cash on Delivery) di kota Bogor, box motor pertama pun berhasil dijual. Penjualan pun berlanjut dari penjualan box motor hingga ke bracket (besi penghubung untuk memasang box dengan motor yang tentu tiap tipe motor berbeda).</p>
 </div>
 
 <div class="container mt-5">
